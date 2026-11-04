@@ -33,7 +33,7 @@ class ProfilePage extends StatelessWidget {
             const SizedBox(height: 10),
 
             const Text(
-              "Youssef El-khawas",
+              "Student",
               style: TextStyle(
                 color: Color(0xFF0F2150),
                 fontSize: 30,
@@ -42,7 +42,7 @@ class ProfilePage extends StatelessWidget {
             ),
 
             const Text(
-              " Information System Department",
+              "Computer Science Department",
               style: TextStyle(color: Color(0xFF6B7A99)),
             ),
             const SizedBox(height: 5),
@@ -54,7 +54,7 @@ class ProfilePage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Text(
-                "4rth Year",
+                "3rd Year",
                 style: TextStyle(color: const Color(0xFF2272E0)),
               ),
             ),
@@ -116,7 +116,7 @@ class ProfilePage extends StatelessWidget {
                             "Email",
                             style: TextStyle(color: Color(0xFF6B7A99)),
                           ),
-                          Text("youssefelkhawas@std.mans.edu.eg"),
+                          Text("example@university.edu"),
                         ],
                       ),
                     ],
@@ -143,7 +143,7 @@ class ProfilePage extends StatelessWidget {
                             "Phone",
                             style: TextStyle(color: Color(0xFF6B7A99)),
                           ),
-                          Text("+201127643622"),
+                          Text("+20 123 456 7890"),
                         ],
                       ),
                     ],
@@ -205,13 +205,13 @@ class ProfilePage extends StatelessWidget {
                           children: [
                             Image(
                               image: AssetImage(
-                                "assets/images/icons8-dart-48.png",
+                                "assets/images/icons8-flutter-48.png",
                               ),
                               width: 35,
                             ),
                             const SizedBox(width: 8),
                             Text(
-                              "Dart",
+                              "Flutter",
                               style: TextStyle(color: const Color(0xFF0F2150)),
                             ),
                           ],
@@ -231,13 +231,13 @@ class ProfilePage extends StatelessWidget {
                           children: [
                             Image(
                               image: AssetImage(
-                                "assets/images/icons8-flutter-48.png",
+                                "assets/images/icons8-python-48.png",
                               ),
                               width: 35,
                             ),
                             const SizedBox(width: 8),
                             Text(
-                              "Flutter",
+                              "Python",
                               style: TextStyle(color: const Color(0xFF0F2150)),
                             ),
                           ],
